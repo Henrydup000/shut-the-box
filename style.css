@@ -1,0 +1,85 @@
+:root{
+    --main-color: #234dcc;
+    --second-color: #888fa6;
+    scroll-behavior: smooth;
+    }
+body{
+     width: 80%;
+     max-width: 700px;
+     margin: auto;
+     text-align: center;
+ }
+i{
+    font-size: 5rem;
+    color: var(--main-color);
+}
+p{
+    font-size: 1.5rem;
+}
+.boxes{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px var(--main-color);
+    border-radius: 10px;
+    font-size: 3rem;
+    margin: 5px;
+    min-height: 100px;
+    min-width: 50px;
+}
+
+.board-titles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shut{
+    background-color: #520505;
+    border: solid 3px black;
+}
+.scorecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+table, td, tr, th{
+    font-size: 2rem;
+    border: 4px solid var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    min-width: 150px;
+}
+
+button{
+    min-width: 100px;
+    min-height: 50px;
+    border: 4px solid var(--main-color);
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button[disabled]{
+    background-color: var(--second-color);
+}
+
+input{
+    height: 45px;
+    font-size: 15px;
+    border-color: var(--main-color);
+    
+}
+
